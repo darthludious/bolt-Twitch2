@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Twitch Viewer Bot</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <h1>Twitch Viewer Bot</h1>
+        <p id="announcement"></p>
+        <div>
+          <label for="proxy">Select Proxy Server:</label>
+          <select id="proxy">
+            <option value="https://www.blockaway.net">Server 1</option>
+            <option value="https://www.croxy.network">Server 2</option>
+            <option value="https://www.croxy.org">Server 3</option>
+            <option value="https://www.youtubeunblocked.live">Server 4</option>
+            <option value="https://www.croxyproxy.net">Server 5</option>
+          </select>
+        </div>
+        <div>
+          <label for="twitchUsername">Twitch Username:</label>
+          <input type="text" id="twitchUsername" placeholder="Enter Twitch username">
+        </div>
+        <div>
+          <label for="viewerCount">Number of Viewers:</label>
+          <input type="number" id="viewerCount" placeholder="Enter number of viewers">
+        </div>
+        <button id="startBot">Start Bot</button>
+      </div>
+
+      <script src="script.js"></script>
+    </body>
+    </html>
